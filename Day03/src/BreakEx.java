@@ -13,7 +13,7 @@ public class BreakEx {
 		
 		while(true) {
 			sum += num;
-			num++;
+			num++; 
 			if(num > nu) {
 				break;
 			}
