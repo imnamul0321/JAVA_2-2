@@ -6,8 +6,8 @@ public class Game369 {
 		// TODO Auto-generated method stub
 		int num;
 		Scanner s = new Scanner(System.in);
-		System.out.println("숫자 입력하세요 :");
-		num = s.nextInt();
+		System.out.printf("숫자 입력하세요 :");
+		num = s.nextInt(); 
 		
 		if(num>100) {
 			System.out.println("369게임은 100 이하의 숫자로 운영됩니다.");
