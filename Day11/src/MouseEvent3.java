@@ -17,7 +17,7 @@ public class MouseEvent3 extends JFrame implements MouseMotionListener{
 		setSize(300, 200);
 		setVisible(true);
 	}
-	
+		
 	@Override
 	public void mouseDragged(MouseEvent e) {
 		Lb.setText("마우스가 드래그됩니다 ==> " +e.getX() + " ," +e.getY());
