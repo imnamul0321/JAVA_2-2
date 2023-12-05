@@ -54,6 +54,124 @@ public class Puzzle extends JFrame implements ActionListener{
 	}
 	@Override
 	public void actionPerformed(ActionEvent e) {
+		MyButton b = (MyButton) e.getSource();
+		if (b.getText().equals(" ")== true) {
+			return;
+		}
+		if(b.index == 0) {
+			if(buttons[1].getText().equals(" ")) {
+				buttons[1].setText(b.getText());
+				b.setText(" ");
+			}			
+			if(buttons[3].getText().equals(" ")) {
+				buttons[3].setText(b.getText());
+				b.setText(" ");
+			}
+		}
+		if(b.index == 1) {
+			if(buttons[0].getText().equals(" ")) {
+				buttons[0].setText(b.getText());
+				b.setText(" ");
+			}			
+			if(buttons[2].getText().equals(" ")) {
+				buttons[2].setText(b.getText());
+				b.setText(" ");
+			}
+			if(buttons[4].getText().equals(" ")) {
+				buttons[4].setText(b.getText());
+				b.setText(" ");
+			}
+		}
+		if(b.index == 2) {
+			if(buttons[1].getText().equals(" ")) {
+				buttons[1].setText(b.getText());
+				b.setText(" ");
+			}			
+			if(buttons[5].getText().equals(" ")) {
+				buttons[5].setText(b.getText());
+				b.setText(" ");
+			}
+		}
+		if(b.index == 3) {
+			if(buttons[0].getText().equals(" ")) {
+				buttons[0].setText(b.getText());
+				b.setText(" ");
+			}			
+			if(buttons[4].getText().equals(" ")) {
+				buttons[4].setText(b.getText());
+				b.setText(" ");
+			}	
+			if(buttons[6].getText().equals(" ")) {
+				buttons[6].setText(b.getText());
+				b.setText(" ");
+			}
+		}
+		if(b.index == 4) {
+			if(buttons[1].getText().equals(" ")) {
+				buttons[1].setText(b.getText());
+				b.setText(" ");
+			}			
+			if(buttons[3].getText().equals(" ")) {
+				buttons[3].setText(b.getText());
+				b.setText(" ");
+			}
+			if(buttons[5].getText().equals(" ")) {
+				buttons[5].setText(b.getText());
+				b.setText(" ");
+			}			
+			if(buttons[7].getText().equals(" ")) {
+				buttons[7].setText(b.getText());
+				b.setText(" ");
+			}
+		}
+		if(b.index == 5) {
+			if(buttons[2].getText().equals(" ")) {
+				buttons[2].setText(b.getText());
+				b.setText(" ");
+			}		
+			if(buttons[4].getText().equals(" ")) {
+				buttons[4].setText(b.getText());
+				b.setText(" ");
+			}			
+			if(buttons[8].getText().equals(" ")) {
+				buttons[8].setText(b.getText());
+				b.setText(" ");
+			}
+		}
+		if(b.index == 6) {
+			if(buttons[3].getText().equals(" ")) {
+				buttons[3].setText(b.getText());
+				b.setText(" ");
+			}			
+			if(buttons[7].getText().equals(" ")) {
+				buttons[7].setText(b.getText());
+				b.setText(" ");
+			}
+		}
+		if(b.index == 7) {
+			if(buttons[4].getText().equals(" ")) {
+				buttons[4].setText(b.getText());
+				b.setText(" ");
+			}			
+			if(buttons[6].getText().equals(" ")) {
+				buttons[6].setText(b.getText());
+				b.setText(" ");
+			}
+			if(buttons[8].getText().equals(" ")) {
+				buttons[8].setText(b.getText());
+				b.setText(" ");
+			}
+		}
+		if(b.index == 8) {
+			if(buttons[5].getText().equals(" ")) {
+				buttons[5].setText(b.getText());
+				b.setText(" ");
+			}			
+			if(buttons[7].getText().equals(" ")) {
+				buttons[7].setText(b.getText());
+				b.setText(" ");
+			}
+		}
 	
 		
 	}
